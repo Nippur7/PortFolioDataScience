@@ -1,0 +1,4 @@
+Para comenzar con el despliegue de las diapositivas ejecutar en la línea de comandos:
+	streamlit run Intro.py
+
+Nota: recordar estar posicionados en la carpeta raíz de la aplicación.

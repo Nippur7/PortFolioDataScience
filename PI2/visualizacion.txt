@@ -1,0 +1,7 @@
+Un mapa que muestre la cantidad de hospitalizados debido al COVID-19 por Estado.**
+
+Uso de camas UCI por Estado.
+
+Ranking de Estados con mayor ocupación hospitalaria por COVID
+
+Cantidad de camas ocupadas por COVID-19 entre dos fechas elegidas por el usuario.

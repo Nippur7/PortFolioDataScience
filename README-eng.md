@@ -1,4 +1,4 @@
 # PortFolio DataScience
 
-![An old rock in the desert](./Images/20220522_190726.jpg)
+![Dique la Ciénaga - Jujuy](./Images/20220522_190726.jpg)
 
