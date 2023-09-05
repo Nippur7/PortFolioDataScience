@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 
-st.title('Global Energy consumption and CO2')
+st.title('"HABLAX Interactive Monthly Report Dashboard')
 
 st.markdown("""
             <div style="text-align: justify;">
