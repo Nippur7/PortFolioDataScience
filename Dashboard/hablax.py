@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Global Energy consumption and CO2 - Home",
+    page_title="HABLAX.INC Dashboard - Home",
     layout="wide"
 )
 
@@ -17,7 +17,7 @@ st.markdown("""
             """, unsafe_allow_html=True)
 @st.experimental_memo
 def load_dashboard():
-    return 'https://app.powerbi.com/reportEmbed?reportId=97ef94c8-08cd-4850-85cf-beeebfb7a7e7&autoAuth=true&ctid=458a0ded-ee7b-47cc-8185-2f3d6065b450'
-
-st.components.v1.html('<iframe title="dashboard_v6" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYTFlNzE4NzgtNDc0NC00NTE5LTgxMTQtMzEzYzcwOGI5Y2YxIiwidCI6IjQ1OGEwZGVkLWVlN2ItNDdjYy04MTg1LTJmM2Q2MDY1YjQ1MCJ9" frameborder="0" allowFullScreen="true"></iframe>', height=800)
+    return st.secrets["powerbi_dash"]
+# print(type(st.secrets["powerbi_dash"]))
+st.components.v1.iframe(load_dashboard(), height=900)
 
