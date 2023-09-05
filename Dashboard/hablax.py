@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 
-st.title('"HABLAX Interactive Monthly Report Dashboard')
+st.title('HABLAX Interactive Monthly Report Dashboard')
 
 st.markdown("""
             <div style="text-align: justify;">
