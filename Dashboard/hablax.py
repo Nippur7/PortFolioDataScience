@@ -10,7 +10,7 @@ st.title('HABLAX Interactive Monthly Report Dashboard')
 
 st.markdown("""
             <div style="text-align: justify;">
-            This data is property of HABLAX.INC.
+            The data displayed here is owned by Hablax.INC
 
 
             </div>
